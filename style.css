@@ -1,3 +1,4 @@
+/* container css */
 .container{
     background-color: rgb(252, 225, 191);
 }
@@ -18,4 +19,17 @@
 }
 .container-xxl{
     background-color: rgb(122, 82, 96);
+}
+
+
+/* grid css */
+.col-sm-6{
+    background-color: rgb(216, 241, 233);
+
+}
+.col-sm-4{
+    background-color: rgb(252, 238, 217);
+}
+.col-sm-3{
+    background-color: rgb(200, 200, 231);
 }
