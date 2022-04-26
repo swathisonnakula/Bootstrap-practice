@@ -195,22 +195,39 @@
             </div>
 
             <!-- BUTTONS STYLES-->
-            <h1>Button Styles..!</h1>
-            <button class="btn btn-default">Defualt button</button><br><br>
-            <button class=" btn btn-success">Success Button</button><br><br>
-            <button class=" btn btn-primary">PrimaryButton</button><br><br>
-            <button class=" btn btn-warning">Warning Button</button><br><br>
-            <button class=" btn btn-danger">Danger Button</button><br><br>
-            <button class=" btn btn-info">Info Button</button><br><br>
-            <button class=" btn btn-link">Link Button</button><br><br>
+            <h1>Button Styles..!</h1><br>
+            <button class="btn btn-default">Defualt button</button>
+            <button class=" btn btn-success">Success Button</button>
+            <button class=" btn btn-primary">PrimaryButton</button>
+            <button class=" btn btn-warning">Warning Button</button>
+            <button class=" btn btn-danger">Danger Button</button>
+            <button class=" btn btn-info">Info Button</button>
+            <button class=" btn btn-dark">Dark Button</button>
+            <button class=" btn btn-link">Link Button</button>
             <button class="btn btn-check btn-success">check button</button>
             <hr>
             <!-- Button Sizes -->
             <h1>BS Button Sizes..!</h1><hr>
-            <button class="btn btn-primary">Normal button</button><br><br>
-            <button class="btn btn-xs btn-primary">extra-small button</button><br><br>
-            <button class="btn btn-sm btn-primary">small button</button><br><br>
-            <button class="btn btn-lg btn-primary">large button</button><br><br><hr>
+            <button class="btn btn-primary">Normal button</button>
+            <button class="btn btn-xs btn-primary">extra-small button</button>
+            <button class="btn btn-sm btn-primary">small button</button>
+            <button class="btn btn-lg btn-primary">large button</button><hr>
+
+            <!-- Outline buttons -->
+            <h1>Outline buttons..!</h1><br>
+            <button class="btn btn-outline-warning">Warning</button>
+            <button class="btn btn-outline-danger">Danger</button>
+            <button class="btn btn-outline-dark">Dark</button>
+            <button class="btn btn-outline-secondary">Secondary</button>
+            <button class="btn btn-outline-success">Success</button>
+            <button class="btn btn-outline-light">Light</button>
+            <button class="btn btn-outline-primary">Primary</button><hr>
+            <!-- block button -->
+            <div class="d-grid gap-2">
+                <button class="btn btn-primary" type="button">Button</button>
+                <button class="btn btn-primary" type="button">Button</button>
+              </div>
+
 
             <!-- BUTTON GROUPS -->
             <h1>BS Button Groups..!</h1> <hr><br>
@@ -223,6 +240,15 @@
                <button class="btn btn-light">Button-1</button>
                <button class="btn btn-outline-secondary">Button-1</button> 
             </div> <br><br><hr>
+
+            <!-- Active Button groups -->
+            <h1>Active buttons</h1><br>
+            <div class="btn-group">
+                <button class="btn btn-primary active">Home</button>
+                <button class="btn btn-primary">About</button>
+                <button class="btn btn-primary">Contact</button>
+
+            </div>
             <!-- TABLES -->
             <h1>BS Tables..!</h1>
             <table  class="table table-striped table-bordered table-hover">
@@ -260,8 +286,49 @@
                         <td>EEE</td>
                     </tr>
                 </tbody>
-            </table>
+            </table><hr>
 
-           
+           <!-- BS ALERTS..! -->
+           <!-- alert-contextual classes -->
+           <h1>BS Alerts..!</h1><br>
+           <div class="alert alert-primary">This is a primary alert!</div>
+           <div class="alert alert-secondary ">This is a secondary alert!</div>
+           <div class="alert alert-danger">This is a danger alert!</div>
+           <div class="alert alert-dark">This is a dark alert!</div>
+           <div class="alert alert-success ">This is a success alert!</div>
+           <div class="alert alert-warning">This is a warning alert!</div>
+           <div class="alert alert-link">This is a link alert!</div>
+           <div class="alert alert-light">This is a light alert!</div>
+           <hr>
+           <!-- BS Badges..! -->
+           <h1>BS Badges..!</h1><br>
+           <h4>This is a badge<span class="badge bg-danger">Badge</span></h4><br>
+           <!-- badges-buttons -->
+           <button type="button" class="btn btn-primary">Notifications <span class="badge bg-dark">13</span></button><br><br>
+           <!-- rounded-pill badges -->
+           <h1 class="badge rounded-pill bg-success">rounded-pill badge</h1><hr>
+
+           <!-- BS breadcrumbs - indicates on which page you are. can be used for nav bar consisting of ol or ul items  -->
+           <h1>BS Breadcrumbes..!</h1> <br>
+           <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item active" aria-current="page">Home</li>
+                <li class="breadcrumb-item ">About</li>
+                <li class="breadcrumb-item ">Services</li>
+                <li class="breadcrumb-item ">Contact</li>
+            </ol>
+        </nav>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item"><a href="#">About</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Contact</li>
+            </ol>
+          </nav>
+
+
+
+
+
 </body>
 </html>
